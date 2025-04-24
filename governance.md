@@ -5,15 +5,11 @@ teaching: 20
 exercises: 10
 ---
 
-## Questions
-
 :::questions
 - Why is governance critical for sustainability in open projects?
 - What governance models are commonly used in open source projects?
 - How can a project decide which governance model fits best?
 :::
-
-## Objectives
 
 :::objectives
 - Explain the importance of establishing a governance structure early in a project's life.
@@ -21,12 +17,6 @@ exercises: 10
 - Use the ITAV Governance Framework to assess which model aligns with your project’s context.
 :::
 
-
-:::keypoints
-- Governance provides clarity, transparency, and shared responsibility in OSS.
-- There is no one-size-fits-all model; effective governance reflects community needs.
-- Decisions about structure, leadership, and policies should be revisited over time.
-:::
 
 ## What is Governance?
 
@@ -68,6 +58,8 @@ In pairs or small groups, compare your scores and discuss:
 What governance challenges have you seen in open projects you’ve participated in? How were they resolved—or left unresolved?
 :::
 
+In the next episode, we’ll explore strategies for **Engaging Communities** and sustaining active participation in your project over time.
+
 :::keypoints
 - Governance provides clarity, transparency, and shared responsibility in OSS.
 - There is no one-size-fits-all model; effective governance reflects community needs.
@@ -75,4 +67,3 @@ What governance challenges have you seen in open projects you’ve participated 
 :::
 
 
-In the next episode, we’ll explore strategies for **Engaging Communities** and sustaining active participation in your project over time.

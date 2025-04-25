@@ -1,22 +1,15 @@
-# This template CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to replace its contents
-# with information about your lesson.
-# Remember to update this file periodically, 
-# ensuring that the author list and other fields remain accurate.
-
 cff-version: 1.2.0
-title: FIXME
+title: Sustaining Open Projects with the It Takes a Village Framework
 message: >-
-  Please cite this lesson using the information in this file
-  when you refer to it in publications, and/or if you
-  re-use, adapt, or expand on the content in your own
-  training material.
-type: dataset
+  Please cite this lesson as:
+  Dennis, T. (2025). Sustaining Open Projects with the It Takes a Village Framework.
+  Adapted from the It Takes a Village (ITAV) guide by LYRASIS.
+  Available under a CC-BY 4.0 License.
+type: lesson
 authors:
-  - given-names: FIXME
-    family-names: FIXME
+  - given-names: Tim
+    family-names: Dennis
+    orcid: https://orcid.org/0000-0001-6632-3812
 abstract: >-
-  FIXME Replace this with a short abstract describing the
-  lesson, e.g. its target audience and main intended
-  learning objectives.
+  This lesson introduces learners to practical strategies for sustaining open source and community-based projects, including governance, community engagement, infrastructure planning, and resource development. Based on the It Takes a Village (ITAV) framework by LYRASIS, the lesson is structured for a wide range of open project contributors, particularly in academic and cultural heritage contexts.
 license: CC-BY-4.0

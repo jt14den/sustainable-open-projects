@@ -5,7 +5,6 @@ teaching: 20
 exercises: 15
 ---
 
-## Questions
 
 :::questions
 - Why is it important to define the community your project serves?
@@ -13,7 +12,6 @@ exercises: 15
 - What methods can help surface diverse community needs?
 :::
 
-## Objectives
 
 :::objectives
 - Define who the core community and stakeholders are for your project.

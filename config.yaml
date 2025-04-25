@@ -68,6 +68,7 @@ contact: 'team@carpentries.org' # FIXME
 episodes: 
 - governance.md
 - community-needs.md
+- infrastructure.md
 
 # Information for Learners
 learners: 

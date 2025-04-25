@@ -6,7 +6,6 @@ site: sandpaper::sandpaper_site
 
 This lesson introduces learners to strategies for ensuring the long-term sustainability of open source and community-based projects. Drawing from the *It Takes a Village (ITAV)* guide, it provides practical approaches for navigating governance, stakeholder engagement, infrastructure planning, community health, and resource development. Each episode focuses on a key facet of sustainability and is aligned with one of three lifecycle phases: Getting Started, Growing, and Stable-but-Not-Static.
 
-
 ## Objectives
 
 After completing this lesson, learners should be able to:

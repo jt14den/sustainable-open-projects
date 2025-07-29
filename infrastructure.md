@@ -12,56 +12,52 @@ exercises: 15
 :::
 
 :::objectives
-- Identify infrastructure components critical to open project sustainability.
-- Evaluate tools and platforms based on longevity, support, and community alignment.
-- Use a scenario-based activity to choose infrastructure for a sample project.
+- Identify infrastructure components that support open project sustainability.
+- Evaluate tools and platforms for long-term support and community fit.
+- Practice selecting infrastructure through a scenario activity.
 :::
 
 ## What Is Infrastructure in Open Projects?
 
-Infrastructure includes all the technical tools and services that support your project:
-- Code repositories (e.g., GitHub, GitLab)
-- Communication platforms (e.g., Slack, Discourse)
+Infrastructure refers to the technical tools and services that support your project:
+- Code repositories (like GitHub or GitLab)
+- Communication platforms (like Slack or Discourse)
 - Data storage and hosting
 - Documentation systems
 - Project management tools
 
 ## Factors to Consider
 
-- **Simplicity**: Can your team and contributors easily use and maintain it?
-- **Scalability**: Will it still work as your project grows?
-- **Interoperability**: Does it integrate well with tools your community already uses?
-- **Support and Longevity**: Is the tool actively maintained and widely adopted?
-- **Cost**: Are there hidden costs in the long term?
+- **Simplicity**: Is it easy for your team and contributors to use and maintain?
+- **Scalability**: Will it keep working as your project grows?
+- **Interoperability**: Does it connect well with tools your community already uses?
+- **Support and Longevity**: Is it actively maintained and broadly used?
+- **Cost**: Are there long-term or hidden costs?
 
 ## Tool Selection Framework
 
-Use the ITAV framework’s technology facet to guide evaluation:
-- Prioritize based on current phase (Getting Started, Growing, Stable)
-- Score options on community adoption, ease of onboarding, sustainability, and flexibility
+Use the technology facet of the ITAV framework to guide decisions:
+- Match tools to your current phase (Getting Started, Growing, or Stable)
+- Score tools on adoption, ease of use, long-term viability, and flexibility
 
 :::challenge
 **Exercise: Infrastructure Scenario Planning**  
 **Time: 15 minutes**
 
-You are launching an open educational resource platform. In groups:
-- Identify 3 infrastructure needs (e.g., code hosting, user contributions, discussion forum)
-- Choose from a set of provided tools (or your own suggestions)
-- Justify your choices based on criteria above
+You're launching a platform for open educational resources. In small groups:
+- Identify three infrastructure needs (such as code hosting, contributions, or discussion)
+- Choose tools from a provided list or suggest your own
+- Explain your selections using the criteria above
 
-Share back with the group.
+Report back to the full group.
 :::
 
 :::discussion
-What infrastructure decisions have had a lasting impact (positive or negative) on a project you’ve worked on? What would you do differently now?
+Think about a project you've worked on. Which infrastructure choices stuck with the project—for better or worse? What would you change today?
 :::
 
 :::keypoints
-- Infrastructure decisions are strategic—not just technical.
-- Tools must match your project’s phase, team capacity, and community expectations.
-- Re-evaluating infrastructure over time is essential to long-term sustainability.
+- Infrastructure choices shape a project’s future. They’re strategic decisions.
+- Tools should fit your project’s stage, team skills, and community needs.
+- Revisit your setup regularly to keep it sustainable.
 :::
-
-## Next Steps
-
-Next, we’ll explore how to fund and resource your project as it grows.

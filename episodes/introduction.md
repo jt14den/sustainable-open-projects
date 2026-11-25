@@ -1,114 +1,75 @@
 ---
-title: "Using Markdown"
-teaching: 10
+title: "Sustainability as a set of decisions"
+type: episode
+teaching: 8
 exercises: 2
 ---
 
-:::::::::::::::::::::::::::::::::::::: questions 
+::: questions
 
-- How do you write a lesson using Markdown and `{sandpaper}`?
+- What could stop an open project from serving its users?
+- How can different parts of a project need different kinds of support?
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+:::
 
-::::::::::::::::::::::::::::::::::::: objectives
+::: objectives
 
-- Explain how to use markdown with The Carpentries Workbench
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Connect a case risk to overlapping ITAV facets.
+- Explain why a working website does not establish readiness in every facet.
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+:::
 
-## Introduction
+## Start with a decision record
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.html) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+This workshop uses **It Takes a Village (ITAV)** as its organizing framework. The UC OSPO Sustainability Playbook is an academic companion, not another set of labels to memorize. Applying guidance for heritage open source software to an open lesson collection is a teaching adaptation.
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson:
+Open the [project worksheet](../learners/project-worksheet.md). Read **Open Methods Kit**, then look at **Decision record starter**. You will connect a community need, a rule, a service choice, and a feasible next action. All required facts and fictional service profiles are in that handout. Your output is a proposal for consultation, not authority to change a real project.
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
+## Four connected facets
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+| ITAV facet | Question | Case evidence |
+| --- | --- | --- |
+| Governance | Who can decide, and who covers absence? | No substantial-change rule is documented |
+| Technology | What must work, and who can keep it working? | The website works, but publishing depends on one person |
+| Resources | What labor, money, and commitments are available? | Limited volunteer time and service budget; a departure is approaching |
+| Community Engagement | Whose needs shape the work? | Some educators send corrections by email |
 
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
+Resources include review, documentation, training, and institutional commitments as well as money. More contributions can mean more review work. Community members are not a supply of free labor.
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+## Phases describe evidence, not a ranking
 
-::::::::::::::::::::::::::::::::::::: challenge 
+The [2018 ITAV guidebook](../learners/reference.md) uses **Getting Started**, **Growing/Getting Established**, and **Stable, But Not Static**. A facet can change phase as circumstances change. To make a tentative assessment, name the facet, cite evidence of its current arrangements, identify missing evidence, and state when to revisit it.
 
-## Challenge 1: Can you do it?
+For example, the missing decision rule suggests governance is still Getting Started. A functioning site suggests some technology is established, but does not show that recovery or handover is reliable. We cannot assign the whole project a stable label from its website. A departure can weaken resources even when the content remains useful.
 
-What is the output of this command?
+Sustainability can mean maintaining service, handing it over, reducing support, or responsibly ending operation. Citation identifies a release; preservation retains an artifact; operation keeps a service available. One does not guarantee the others.
 
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
+:::: challenge
 
-:::::::::::::::::::::::: solution 
+## Baseline: connect a risk
 
-## Output
- 
-```output
-[1] "This new lesson looks good"
-```
+**2 minutes, individual.** Use the worksheet case. Write one risk, two affected facets, and one reason the website's existence does not settle the project's phase. Keep this response for the final record.
 
-:::::::::::::::::::::::::::::::::
+::: solution
 
+The publisher's departure affects resources (available skill and time) and technology (ability to publish). It also affects governance if no backup has authority. The working site does not demonstrate account recovery or agreed decision rights. Other overlapping facets pass when the explanation cites the case; a phase label without evidence needs revision.
 
-## Challenge 2: how do you nest solutions within challenge blocks?
+:::
+::::
 
-:::::::::::::::::::::::: solution 
+::: instructor
 
-You can add a line with at least three colons and a `solution` tag.
+Use the 8 teaching minutes for purpose and handout reading (3), facets (3), and phase reasoning (2). Read individual explanations before deciding how much support to give. For confident learners, invite a bounded prediction before explaining the phase example and explicitly compare it afterward. Do not infer cognitive overload from page length.
 
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
+:::
 
-## Figures
-
-You can use standard markdown for static figures with the following syntax:
-
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
-
-::::::::::::::::::::::::::::::::::::: callout
-
-Callout sections can highlight information.
-
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
-
-::::::::::::::::::::::::::::::::::::::::::::::::
+Next, identify whose needs and work the decision must account for.
 
 
-## Math
+::: keypoints
 
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
+- Use evidence to connect risks across facets.
+- Assess phases by facet and revisit them when circumstances change.
+- A proposal must account for people, time, money, and limits of support.
 
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
-
-::::::::::::::::::::::::::::::::::::: keypoints 
-
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-[r-markdown]: https://rmarkdown.rstudio.com/
+:::

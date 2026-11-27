@@ -5,11 +5,15 @@ message: >-
   Dennis, T. (2025). Sustaining Open Projects with the It Takes a Village Framework.
   Adapted from the It Takes a Village (ITAV) guide by LYRASIS.
   Available under a CC-BY 4.0 License.
-type: lesson
 authors:
   - given-names: Tim
     family-names: Dennis
     orcid: https://orcid.org/0000-0001-6632-3812
 abstract: >-
-  This lesson introduces learners to practical strategies for sustaining open source and community-based projects, including governance, community engagement, infrastructure planning, and resource development. Based on the It Takes a Village (ITAV) framework by LYRASIS, the lesson is structured for a wide range of open project contributors, particularly in academic and cultural heritage contexts.
+  An introductory decision workshop for contributors to open projects in libraries,
+  research, and open scholarship. Learners use a fictional case to connect community
+  needs, governance rules, infrastructure, and resource limits in a proposal for
+  consultation. ITAV supplies the organizing framework; selected UC OSPO Sustainability
+  Playbook chapters provide academic context. The proposed timing and teaching design
+  require a learner pilot.
 license: CC-BY-4.0

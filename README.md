@@ -1,38 +1,45 @@
 # Sustaining Open Projects with the It Takes a Village Framework
 
-## Lesson Overview
+## Lesson overview
 
-This lesson is designed to teach strategies for ensuring the sustainability of open source and community-driven projects. It draws heavily from the "It Takes a Village (ITAV)" framework developed by LYRASIS. Learners will explore core facets of project sustainability, including governance, community engagement, infrastructure planning, and funding strategies.
+Practice sustainability decisions for Open Methods Kit, a fictional open lesson collection. Use ITAV's four facets throughout, with selected UC OSPO Sustainability Playbook chapters as academic context. Applying heritage open source software guidance to other open projects is an explicit teaching adaptation.
 
-## Audience
+The proposed introductory workshop takes **120 minutes**, including a 10-minute break. Timings are a pilot budget, not measured results. The lesson remains pre-alpha.
 
-This lesson is intended for:
-- Project leaders, contributors, and community managers in open source and open scholarship initiatives.
-- Library, archive, museum, and academic staff involved in digital projects.
-- Anyone interested in building or sustaining open projects in their early, growing, or mature phases.
+The finish line is a concise decision record connecting a community need, an operational decision rule, infrastructure, and resources. Include support limits, recurring and transition work, a citation/preservation/status note, and a first action to discuss with stakeholders. Handover, reduced scope, or responsible sunset can be justified outcomes. This workshop does not produce a full funding strategy or authorize changes to a real project.
 
-No coding experience is required.
+## Outcomes and evidence
 
-## Prerequisites
+| After the workshop, learners can | Required evidence |
+| --- | --- |
+| Connect a sustainability risk to overlapping ITAV facets | Baseline risk and final explanation, with phase evidence and uncertainty |
+| Distinguish facts from assumptions about community needs | Community table, question for an affected group, and support boundary |
+| Draft and defend an operational decision rule | Governance row and tradeoff, with a capability check for the backup |
+| Compare infrastructure within available capacity | A/B comparison including alternative, limitations, recurring work, and transition work |
+| Propose an achievable first action | Final record with responsible role, consultation, review event, and reconsideration trigger; individual changed-deadline response |
 
-Learners should have basic familiarity with open source or community-based projects. Experience participating in collaborative initiatives is helpful but not required.
+## Audience and materials
 
-## Credit and Acknowledgments
+For adults in libraries, research, and open scholarship who know collaborative work but have little experience making explicit sustainability decisions. Contributors need no authority to approve changes. No coding, administration, budget-management, or formal governance experience is required.
 
-- This lesson is adapted from the *It Takes a Village: Open Source Software Sustainability* guide developed by [LYRASIS](https://www.lyrasis.org/technology/Pages/It-Takes-a-Village.aspx).
-- The original ITAV content was developed under funding from the Institute of Museum and Library Services (IMLS).
-- Adaptation to Carpentries-style lesson format and ongoing maintenance by **Tim Dennis**.
+Use the supplied fictional case for every required task. Application to your own project is optional. Paper or a plain text document is enough; no new accounts, installation, or live research are required.
 
-## Maintainer
+## Teaching and local validation
 
-- **Tim Dennis** (tdennis@library.ucla.edu)
+The sequence is introduction, community, governance, infrastructure, and synthesis. Use [setup](learners/setup.md), the [worksheet](learners/project-worksheet.md), and [instructor notes](instructors/instructor-notes.md). The notes contain the schedule, feedback responses, and human pilot protocol.
 
-## License
+Run these from the repository root with the installed Workbench environment:
 
-This lesson is made available under a [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+```sh
+wbcheck check . --json
+Rscript -e 'sandpaper::check_lesson(); sandpaper::validate_lesson(); sandpaper::build_lesson(preview = FALSE)'
+```
 
-The original "It Takes a Village" guide is available for reuse under terms outlined by LYRASIS. Please cite appropriately when adapting materials.
+Inspect the rendered learner and instructor pages and all-in-one views. Mechanical checks and a successful build do not establish learning or timing. Keep source edits separate from generated files in `site/`.
 
-## Contributing
+## Credit, maintenance, and license
 
-Contributions are welcome! Please follow the Carpentries [contributing guidelines](https://carpentries.github.io/lesson-example/) for lesson materials.
+This lesson draws on LYRASIS's February 2018 *It Takes a Village: Open Source Software Sustainability* guidebook, developed with IMLS support. The fictional case and decision worksheets are lesson adaptations, not official ITAV instruments. Selected UC OSPO Sustainability Playbook chapters provide academic context. See the [reference page](learners/reference.md) for source versions and limits.
+
+Maintainer: Tim Dennis (tdennis@library.ucla.edu).
+Lesson content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [contributing guidance](CONTRIBUTING.md).

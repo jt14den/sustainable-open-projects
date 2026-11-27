@@ -15,32 +15,32 @@
 carpentry: 'incubator'
 
 # Alt-text description of the lesson.
-carpentry_description: 'Learn how to sustain open projects by building strong governance, engaging communities, and planning for long-term impact using the It Takes a Village framework.'
+carpentry_description: 'Practice community, governance, and infrastructure decisions within a small open project’s resource limits.'
 
 # Overall title for pages.
-title: 'Sustaining Open Projects with the It Takes a Village Framework' # FIXME
+title: 'Sustaining Open Projects with the It Takes a Village Framework'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # 2025-04-24
+created: 2025-04-24
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries' # FIXME
+keywords: 'software, data, lesson, The Carpentries'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha' # FIXME
+life_cycle: 'pre-alpha'
 
 # License of the lesson
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/jt14den/sustainable-open-projects' # FIXME
+source: 'https://github.com/jt14den/sustainable-open-projects'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: 'tdennis@library.ucla.edu'
 
 # Navigation ------------------------------------------------
 #
@@ -66,18 +66,25 @@ contact: 'team@carpentries.org' # FIXME
 
 # Order of episodes in your lesson
 episodes: 
-- governance.md
+- introduction.md
 - community-needs.md
+- governance.md
 - infrastructure.md
+- synthesis.md
 
 # Information for Learners
 learners: 
+- setup.md
+- project-worksheet.md
+- reference.md
 
 # Information for Instructors
 instructors: 
+- instructor-notes.md
 
 # Learner Profiles
 profiles: 
+- learner-profiles.md
 
 # Customisation ---------------------------------------------
 #

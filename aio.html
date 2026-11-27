@@ -41,7 +41,7 @@
     <div class="col-md-8">
       <div class="large-logo">
         <a href="index.html">
-        <img id="incubator-logo" alt="Learn how to sustain open projects by building strong governance, engaging communities, and planning for long-term impact using the It Takes a Village framework." src="assets/images/incubator-logo.svg"></a>
+        <img id="incubator-logo" alt="Practice community, governance, and infrastructure decisions within a small open project’s resource limits." src="assets/images/incubator-logo.svg"></a>
 
         <span class="badge text-bg-danger">
           <abbr title="This lesson is in the pre-alpha phase, which means that it is in early development, but has not yet been taught.">
@@ -100,7 +100,7 @@
     </button>
     <div class="nav-logo">
       <a href="index.html">
-      <img class="small-logo" alt="Learn how to sustain open projects by building strong governance, engaging communities, and planning for long-term impact using the It Takes a Village framework." src="assets/images/incubator-logo-sm.svg"></a>
+      <img class="small-logo" alt="Practice community, governance, and infrastructure decisions within a small open project’s resource limits." src="assets/images/incubator-logo-sm.svg"></a>
     </div>
     <div class="lesson-title-md">
       Sustaining Open Projects with the It Takes a Village Framework
@@ -131,6 +131,7 @@
             More <i data-feather="chevron-down"></i>
           </button>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+<li><a class="dropdown-item" href="project-worksheet.html">Project worksheet</a></li>
 <li><a class="dropdown-item" href="reference.html">Reference</a></li>
           </ul>
 </li>
@@ -244,7 +245,7 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="governance.html">1. Establishing Governance for Sustainable Open Projects</a>
+        <a href="introduction.html">1. Sustainability as a set of decisions</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -256,7 +257,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="community-needs.html">2. Identifying Core Community Needs and Stakeholders</a>
+        <a href="community-needs.html">2. Community needs and support boundaries</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -268,7 +269,31 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="infrastructure.html">3. Selecting Infrastructure and Tools for Longevity</a>
+        <a href="governance.html">3. Rules for decisions and handover</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="infrastructure.html">4. Infrastructure within the whole work budget</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush6">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading6">
+        <a href="synthesis.html">5. A decision record to discuss and test</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -320,6 +345,7 @@
                 <div id="flush-collapse-resources-toggle" class="accordion-collapse collapse" data-bs-parent="#accordion-resources-toggle">
                   <div class="accordion-body">
                     <ul>
+<li><a href="project-worksheet.html">Project worksheet</a></li>
 <li><a href="reference.html">Reference</a></li>
                     </ul>
 </div>
@@ -350,11 +376,11 @@
     <main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>All in One View</h1>
         
-<section id="aio-governance"><p>Content from <a href="governance.html">Establishing Governance for Sustainable Open Projects</a></p>
+<section id="aio-introduction"><p>Content from <a href="introduction.html">Sustainability as a set of decisions</a></p>
 <hr>
-<p>Last updated on 2025-04-24 |
+<p>Last updated on 2026-11-27 |
 
-        <a href="https://github.com/jt14den/sustainable-open-projects/edit/main/episodes/governance.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <a href="https://github.com/jt14den/sustainable-open-projects/edit/main/episodes/introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -366,10 +392,9 @@
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>Why is governance critical for sustainability in open projects?</li>
-<li>What governance models are commonly used in open source
-projects?</li>
-<li>How can a project decide which governance model fits best?</li>
+<li>What could stop an open project from serving its users?</li>
+<li>How can different parts of a project need different kinds of
+support?</li>
 </ul>
 </div>
 </div>
@@ -379,90 +404,123 @@ projects?</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Explain the importance of establishing a governance structure early
-in a project’s life.</li>
-<li>Compare common governance models and their
-strengths/weaknesses.</li>
-<li>Use the ITAV Governance Framework to assess which model aligns with
-your project’s context.</li>
+<li>Connect a case risk to overlapping ITAV facets.</li>
+<li>Explain why a working website does not establish readiness in every
+facet.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="what-is-governance">What is Governance?<a class="anchor" aria-label="anchor" href="#what-is-governance"></a>
+<section><h2 class="section-heading" id="start-with-a-decision-record">Start with a decision record<a class="anchor" aria-label="anchor" href="#start-with-a-decision-record"></a>
 </h2>
 <hr class="half-width">
-<p>Governance defines how decisions are made in your project. It can
-include:</p>
-<ul>
-<li>Roles and responsibilities</li>
-<li>Decision-making processes</li>
-<li>Policies and codes of conduct</li>
-</ul></section><section><h2 class="section-heading" id="common-governance-models">Common Governance Models<a class="anchor" aria-label="anchor" href="#common-governance-models"></a>
+<p>This workshop uses <strong>It Takes a Village (ITAV)</strong> as its
+organizing framework. The UC OSPO Sustainability Playbook is an academic
+companion, not another set of labels to memorize. Applying guidance for
+heritage open source software to an open lesson collection is a teaching
+adaptation.</p>
+<p>Open the <a href="project-worksheet.html">project worksheet</a>. Read
+<strong>Open Methods Kit</strong>, then look at <strong>Decision record
+starter</strong>. You will connect a community need, a rule, a service
+choice, and a feasible next action. All required facts and fictional
+service profiles are in that handout. Your output is a proposal for
+consultation, not authority to change a real project.</p>
+</section><section><h2 class="section-heading" id="four-connected-facets">Four connected facets<a class="anchor" aria-label="anchor" href="#four-connected-facets"></a>
 </h2>
 <hr class="half-width">
-<ul>
-<li>
-<strong>Benevolent Dictator for Life (BDFL)</strong>: One or more
-founders retain final say over decisions.</li>
-<li>
-<strong>Consensus-Based</strong>: All major decisions are made
-collaboratively, often using voting or discussion.</li>
-<li>
-<strong>Meritocratic</strong>: Influence is earned through
-contributions and participation.</li>
-<li>
-<strong>Foundation-Based</strong>: A nonprofit organization provides
-oversight and long-term support.</li>
-</ul></section><section><h2 class="section-heading" id="governance-in-context">Governance in Context<a class="anchor" aria-label="anchor" href="#governance-in-context"></a>
+<table class="table">
+<colgroup>
+<col width="33%">
+<col width="33%">
+<col width="33%">
+</colgroup>
+<thead><tr>
+<th>ITAV facet</th>
+<th>Question</th>
+<th>Case evidence</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Governance</td>
+<td>Who can decide, and who covers absence?</td>
+<td>No substantial-change rule is documented</td>
+</tr>
+<tr>
+<td>Technology</td>
+<td>What must work, and who can keep it working?</td>
+<td>The website works, but publishing depends on one person</td>
+</tr>
+<tr>
+<td>Resources</td>
+<td>What labor, money, and commitments are available?</td>
+<td>Limited volunteer time and service budget; a departure is
+approaching</td>
+</tr>
+<tr>
+<td>Community Engagement</td>
+<td>Whose needs shape the work?</td>
+<td>Some educators send corrections by email</td>
+</tr>
+</tbody>
+</table>
+<p>Resources include review, documentation, training, and institutional
+commitments as well as money. More contributions can mean more review
+work. Community members are not a supply of free labor.</p>
+</section><section><h2 class="section-heading" id="phases-describe-evidence-not-a-ranking">Phases describe evidence, not a ranking<a class="anchor" aria-label="anchor" href="#phases-describe-evidence-not-a-ranking"></a>
 </h2>
 <hr class="half-width">
-<p>There is no universal model—each project should adapt based on its
-goals, size, and community. Use ITAV’s “Governance Objectives” as a
-guide for what decisions your team should consider early.</p>
-</section><section><h2 class="section-heading" id="exercise-governance-alignment-worksheet">Exercise: Governance Alignment Worksheet<a class="anchor" aria-label="anchor" href="#exercise-governance-alignment-worksheet"></a>
-</h2>
-<hr class="half-width">
-<div id="challenge1" class="callout challenge">
+<p>The <a href="reference.html">2018 ITAV guidebook</a> uses
+<strong>Getting Started</strong>, <strong>Growing/Getting
+Established</strong>, and <strong>Stable, But Not Static</strong>. A
+facet can change phase as circumstances change. To make a tentative
+assessment, name the facet, cite evidence of its current arrangements,
+identify missing evidence, and state when to revisit it.</p>
+<p>For example, the missing decision rule suggests governance is still
+Getting Started. A functioning site suggests some technology is
+established, but does not show that recovery or handover is reliable. We
+cannot assign the whole project a stable label from its website. A
+departure can weaken resources even when the content remains useful.</p>
+<p>Sustainability can mean maintaining service, handing it over,
+reducing support, or responsibly ending operation. Citation identifies a
+release; preservation retains an artifact; operation keeps a service
+available. One does not guarantee the others.</p>
+<div id="baseline-connect-a-risk" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <span class="callout-header">Challenge</span>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
+<div id="baseline-connect-a-risk" class="callout-inner">
+<h3 class="callout-title">Baseline: connect a risk</h3>
 <div class="callout-content">
-<p><strong>Time: 10 minutes</strong></p>
-<p>Use the ITAV Governance Worksheet (Appendix A) to assess your current
-or planned governance structure. Score the importance of aspects like
-leadership clarity, decision transparency, and community input.</p>
-<p>In pairs or small groups, compare your scores and discuss:</p>
-<ul>
-<li>Which governance model seems best suited to your context?</li>
-<li>What trade-offs would your team be willing to make?</li>
-</ul>
+<p><strong>2 minutes, individual.</strong> Use the worksheet case. Write
+one risk, two affected facets, and one reason the website’s existence
+does not settle the project’s phase. Keep this response for the final
+record.</p>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="discussion-prompt">Discussion Prompt<a class="anchor" aria-label="anchor" href="#discussion-prompt"></a>
-</h2>
-<hr class="half-width">
-<div id="discussion1" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<p>The publisher’s departure affects resources (available skill and
+time) and technology (ability to publish). It also affects governance if
+no backup has authority. The working site does not demonstrate account
+recovery or agreed decision rights. Other overlapping facets pass when
+the explanation cites the case; a phase label without evidence needs
+revision.</p>
 </div>
-<span class="callout-header">Discussion</span>
-<div class="callout-inner">
-<div class="callout-content">
-<p>What governance challenges have you seen in open projects you’ve
-participated in? How were they resolved—or left unresolved?</p>
 </div>
 </div>
 </div>
-<p>In the next episode, we’ll explore strategies for <strong>Engaging
-Communities</strong> and sustaining active participation in your project
-over time.</p>
+
+<p>Next, identify whose needs and work the decision must account
+for.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -471,12 +529,11 @@ over time.</p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>Governance provides clarity, transparency, and shared responsibility
-in OSS.</li>
-<li>There is no one-size-fits-all model; effective governance reflects
-community needs.</li>
-<li>Decisions about structure, leadership, and policies should be
-revisited over time.</li>
+<li>Use evidence to connect risks across facets.</li>
+<li>Assess phases by facet and revisit them when circumstances
+change.</li>
+<li>A proposal must account for people, time, money, and limits of
+support.</li>
 </ul>
 </div>
 </div>
@@ -485,9 +542,9 @@ revisited over time.</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section><section id="aio-community-needs"><p>Content from <a href="community-needs.html">Identifying Core Community Needs and Stakeholders</a></p>
+</section></section><section id="aio-community-needs"><p>Content from <a href="community-needs.html">Community needs and support boundaries</a></p>
 <hr>
-<p>Last updated on 2025-04-25 |
+<p>Last updated on 2026-11-27 |
 
         <a href="https://github.com/jt14den/sustainable-open-projects/edit/main/episodes/community-needs.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -501,11 +558,8 @@ any links that you are not going to use.
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>Why is it important to define the community your project
-serves?</li>
-<li>How can identifying stakeholders support project
-sustainability?</li>
-<li>What methods can help surface diverse community needs?</li>
+<li>Which needs are established by the case?</li>
+<li>What support can this project actually offer?</li>
 </ul>
 </div>
 </div>
@@ -515,81 +569,123 @@ sustainability?</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Define who the core community and stakeholders are for your
-project.</li>
-<li>Describe methods for understanding user and contributor needs.</li>
-<li>Use a stakeholder mapping activity to reflect on your project’s
-inclusivity and reach.</li>
+<li>Distinguish a case fact from an assumption about a group.</li>
+<li>Propose a way to test a community need and a feasible support
+boundary.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="who-is-your-community">Who is Your Community?<a class="anchor" aria-label="anchor" href="#who-is-your-community"></a>
+<section><h2 class="section-heading" id="identify-people-and-evidence">Identify people and evidence<a class="anchor" aria-label="anchor" href="#identify-people-and-evidence"></a>
 </h2>
 <hr class="half-width">
-<p>Open projects often have multiple communities: - <strong>End
-users</strong> of your tools or outputs - <strong>Contributors</strong>
-who build or document the project - <strong>Institutional
-partners</strong> offering resources or credibility</p>
-<p>Identifying these groups early supports targeted outreach,
-governance, and technical design.</p>
-</section><section><h2 class="section-heading" id="stakeholder-types">Stakeholder Types<a class="anchor" aria-label="anchor" href="#stakeholder-types"></a>
-</h2>
-<hr class="half-width">
-<p>Stakeholders may include: - Academic institutions - Funders -
-Developers and maintainers - Advocacy groups - Underrepresented or
-marginalized users</p>
-</section><section><h2 class="section-heading" id="methods-to-understand-needs">Methods to Understand Needs<a class="anchor" aria-label="anchor" href="#methods-to-understand-needs"></a>
-</h2>
-<hr class="half-width">
-<ul>
-<li>Community surveys</li>
-<li>User interviews</li>
-<li>Feedback channels (GitHub issues, mailing lists)</li>
-<li>Co-design or participatory design workshops</li>
-</ul></section><section><h2 class="section-heading" id="exercise-stakeholder-mapping">Exercise: Stakeholder Mapping<a class="anchor" aria-label="anchor" href="#exercise-stakeholder-mapping"></a>
-</h2>
-<hr class="half-width">
-<div id="challenge1" class="callout challenge">
+<p>Use <strong>Community starter</strong> in the <a href="project-worksheet.html">project worksheet</a>. A stakeholder is
+someone affected by a decision or able to affect it. A reader may also
+be a contributor. Corrections, documentation, testing instructions,
+translation, and review are contributions even when no code changes.</p>
+<div id="check-the-claim" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <span class="callout-header">Challenge</span>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
+<div id="check-the-claim" class="callout-inner">
+<h3 class="callout-title">Check the claim</h3>
 <div class="callout-content">
-<p><strong>Time: 15 minutes</strong></p>
-<p>Draw a stakeholder map for your project: - Place your project in the
-center. - Add surrounding stakeholder groups, noting their role or
-interest. - Use arrows or color to indicate influence, alignment, or
-gaps.</p>
-<p>Reflect in small groups: - Are any key perspectives missing? - Where
-do you need deeper engagement?</p>
+<p><strong>3 minutes, individual response and feedback.</strong> Several
+educators send corrections by email. Write one supported fact and one
+preference the case does not establish. Include a reason, or state what
+you are unsure about.</p>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="discussion-prompt">Discussion Prompt<a class="anchor" aria-label="anchor" href="#discussion-prompt"></a>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<p>Some educators use email now. We do not know whether all prefer email
+or whether they would use another route. Ask an affected educator to try
+draft instructions. Treating maintainer convenience as proof of user
+preference needs revision. Revise one unsupported sentence after
+feedback.</p>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="worked-row-educators">Worked row: educators<a class="anchor" aria-label="anchor" href="#worked-row-educators"></a>
 </h2>
 <hr class="half-width">
-<div id="discussion1" class="callout discussion">
+<p>The first worksheet row starts from observed behavior. A code-hosting
+account requirement might exclude some educators. Asking one educator to
+try a correction route tests a specific barrier, but cannot establish
+everyone’s preference. Record that limit and seek other perspectives as
+capacity allows.</p>
+<p>A proposed support boundary is: accept emailed corrections, reserve a
+limited review slot, and defer new lesson requests during handover.
+Review and response take time, so do not promise immediate answers.
+Publishing without ongoing support is also a legitimate choice if it is
+clearly communicated. See the optional <a href="https://github.com/UC-OSPO-Network/playbook/blob/563615951611866b1822b20a313091fa42d8077e/facet3/community_intro.md" class="external-link">playbook
+community introduction</a>; participation arrangements are choices, not
+a maturity ladder.</p>
+<div id="complete-the-community-table" class="callout challenge">
 <div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<span class="callout-header">Discussion</span>
-<div class="callout-inner">
+<span class="callout-header">Challenge</span>
+<div id="complete-the-community-table" class="callout-inner">
+<h3 class="callout-title">Complete the community table</h3>
 <div class="callout-content">
-<p>Who are the most influential or underrepresented stakeholders in your
-project or field? What steps could you take to better include them?</p>
+<p><strong>14 minutes:</strong> 2 silent writing, 6 paired completion, 4
+review and revision, 2 transition/checkpoint. Use the case and starter
+row. One person records; the other reviews evidence. Swap roles next
+episode.</p>
+<ol style="list-style-type: decimal">
+<li>Complete the reader and maintainer rows. A text-labeled diagram with
+the same evidence and questions is an equivalent route.</li>
+<li>Label one fact and one assumption. Write a question for a named
+group that tests the assumption.</li>
+<li>Choose one group whose exclusion would change the publishing
+decision; explain why.</li>
+<li>Write one sentence saying what support and contributions the team
+will accept, what it will defer, and who must review incoming work. Do
+not assume extra volunteers exist.</li>
+<li>Review against the criteria below and revise one sentence. Keep the
+table and boundary for your final record.</li>
+</ol>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="next-steps">Next Steps<a class="anchor" aria-label="anchor" href="#next-steps"></a>
-</h2>
-<hr class="half-width">
-<p>In the next episode, we’ll look at selecting tools and infrastructure
-that serve both your community and sustainability goals.</p>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+<p>A reader needs a public route to the lessons, but whether readers can
+locate corrected versions is unknown. Ask a reader to try. The incoming
+maintainer can edit but has not published; rehearse a change together.
+Excluding that maintainer could produce a workflow nobody can run after
+departure.</p>
+<p>A bounded proposal is to accept emailed corrections for scheduled
+review by the editor, while pausing new lessons during handover. Its
+workload must still be measured. A smaller support offer can pass if it
+addresses affected users and communicates the limit.</p>
+<p><strong>Criteria:</strong> Cite facts, mark uncertainty, give a
+concrete participation route, and account for review work. A long
+stakeholder list alone is insufficient. Use <strong>Community
+checkpoint</strong> in the worksheet if you need to resume later.</p>
+</div>
+</div>
+</div>
+</div>
+
+<p>Next, decide who can act on the input and how decisions are
+recorded.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -598,12 +694,12 @@ that serve both your community and sustainability goals.</p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>A sustainable project starts with a clear understanding of who it
-serves.</li>
-<li>Stakeholders include both internal and external contributors, users,
-and institutional supporters.</li>
-<li>Effective stakeholder mapping can reveal gaps in engagement or
-representation.</li>
+<li>A stated behavior is evidence, not proof of every user’s
+preferences.</li>
+<li>Recognize contributions beyond code and the work needed to review
+them.</li>
+<li>A clear, limited support offer can fit a project better than
+growth.</li>
 </ul>
 </div>
 </div>
@@ -612,9 +708,185 @@ representation.</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section><section id="aio-infrastructure"><p>Content from <a href="infrastructure.html">Selecting Infrastructure and Tools for Longevity</a></p>
+</section></section><section id="aio-governance"><p>Content from <a href="governance.html">Rules for decisions and handover</a></p>
 <hr>
-<p>Last updated on 2025-07-29 |
+<p>Last updated on 2026-11-27 |
+
+        <a href="https://github.com/jt14den/sustainable-open-projects/edit/main/episodes/governance.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>Who can approve a change, and how can input affect it?</li>
+<li>What evidence makes a backup workable?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Draft a consequential decision rule with consultation, authority,
+records, and continuity.</li>
+<li>Justify a tradeoff and identify a missing handover capability.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="make-the-rule-operational">Make the rule operational<a class="anchor" aria-label="anchor" href="#make-the-rule-operational"></a>
+</h2>
+<hr class="half-width">
+<p>Governance is how a project makes and carries out decisions. A useful
+rule states who proposes, who is consulted, who decides, where reasons
+are recorded, and what happens during absence or disagreement.</p>
+<p>Use the <strong>Governance starter</strong> in the <a href="project-worksheet.html">project worksheet</a>. This local activity
+is informed by ITAV. <a href="https://itav.lyrasis.org/wp-content/uploads/2024/10/ITAV_Report_Interactive.pdf#page=43" class="external-link">Appendix
+A of the 2018 guidebook</a>, printed page 41, assesses sustainability
+across four facets. It is not a governance-model selection or scoring
+procedure.</p>
+<div id="check-the-backup" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="check-the-backup" class="callout-inner">
+<h3 class="callout-title">Check the backup</h3>
+<div class="callout-content">
+<p><strong>3 minutes, individual response and feedback.</strong> The
+team names the second volunteer as backup publisher. What missing
+evidence would you seek before calling this a workable handover? Cite a
+case fact.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<p>The second volunteer has never published. Observe them publish a test
+correction, recover access, and explain their authority; also confirm
+time to take responsibility. Naming a person does not establish
+capability. One important missing condition with a reason is enough for
+this check. Revise a response that treats access alone as proof of
+readiness.</p>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="worked-rule-a-broken-link">Worked rule: a broken link<a class="anchor" aria-label="anchor" href="#worked-rule-a-broken-link"></a>
+</h2>
+<hr class="half-width">
+<p>A reader proposes the replacement by email. The editor checks its
+destination. A maintainer approves and publishes it, recording the
+reason in a public change note. A trained backup uses the same procedure
+during absence. The proposed backup must first demonstrate the task and
+have time to act. These are roles for the existing team to agree, not
+newly available staff.</p>
+<p>A substantial change can alter what educators teach, so a user should
+be consulted before approval. Consultation means their evidence can
+change or stop a proposal. If a conduct policy is offered, it also needs
+a reachable private reporting route, an available responder, and an
+alternative contact when the responder is involved. Do not promise an
+institutional response until that institution agrees.</p>
+<div id="complete-and-defend-a-decision-rule" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="complete-and-defend-a-decision-rule" class="callout-inner">
+<h3 class="callout-title">Complete and defend a decision rule</h3>
+<div class="callout-content">
+<p><strong>14 minutes:</strong> 2 silent drafting, 6 paired completion,
+4 review and revision, 2 transition/checkpoint. Swap recorder and
+reviewer. Use your community table or its checkpoint, plus the
+governance starter row.</p>
+<ol style="list-style-type: decimal">
+<li>Complete the rule for a change that alters a lesson’s meaning. State
+whose input can change it.</li>
+<li>Set a fallback for absence and unresolved disagreement, including a
+review point.</li>
+<li>Explain one tradeoff and one capability check before assigning the
+backup.</li>
+<li>Review and revise using the criteria below. Keep the rule for your
+final record.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+<p>The worksheet’s <strong>Governance checkpoint</strong> is one
+acceptable rule: anyone proposes; a lesson user and maintainer advise;
+an agreed content lead decides and records reasons; a trained backup
+covers absence. Hold disputed substantive changes for review in one week
+while routine corrections continue. This sacrifices speed to avoid
+changing meaning without sufficient evidence.</p>
+<p>Another acceptable rule lets both volunteers approve substantial
+changes together, with a pause when either is unavailable. It offers
+shared authority but risks delay; it needs a realistic review point and
+a plan for the departure.</p>
+<p><strong>Criteria:</strong> Explicit authority, meaningful
+consultation, recorded reasons, feasible roles, and absence/disagreement
+handling. A founder, foundation, or consensus label alone does not meet
+them. No committee or legal structure is required.</p>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="model-names-describe-different-dimensions">Model names describe different dimensions<a class="anchor" aria-label="anchor" href="#model-names-describe-different-dimensions"></a>
+</h2>
+<hr class="half-width">
+<p>Founder authority describes who has final say. Contribution-based
+influence describes how people gain responsibility; it should recognize
+work beyond code. Foundation support describes an organizational home.
+Consensus describes a decision procedure. These can coexist. Consensus
+requires a defined way to handle objections; voting requires a defined
+electorate and threshold. They are not synonyms. More detail is in the
+<a href="reference.html">reference</a>.</p>
+
+<p>Take the scheduled <strong>10-minute break</strong> now. Next,
+compare infrastructure against the work this rule creates.</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<h2 class="callout-header">Key Points</h2>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>Write rules for decisions, not just model labels.</li>
+<li>Consultation must be able to affect the decision.</li>
+<li>A backup needs authority, access, skill, and time.</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-infrastructure"><p>Content from <a href="infrastructure.html">Infrastructure within the whole work budget</a></p>
+<hr>
+<p>Last updated on 2026-11-27 |
 
         <a href="https://github.com/jt14den/sustainable-open-projects/edit/main/episodes/infrastructure.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -628,11 +900,8 @@ any links that you are not going to use.
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>How do technical choices affect the sustainability of an open
-project?</li>
-<li>What are the trade-offs between simplicity, scalability, and
-maintainability?</li>
-<li>How can we align infrastructure decisions with community needs?</li>
+<li>Which service fits the proposed work and support boundary?</li>
+<li>What must be checked before relying on a provider?</li>
 </ul>
 </div>
 </div>
@@ -642,79 +911,133 @@ maintainability?</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Identify infrastructure components that support open project
-sustainability.</li>
-<li>Evaluate tools and platforms for long-term support and community
-fit.</li>
-<li>Practice selecting infrastructure through a scenario activity.</li>
+<li>Compare supplied options using case constraints and a credible
+alternative.</li>
+<li>Separate recurring work from transition effort and propose a
+continuity check.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="what-is-infrastructure-in-open-projects">What Is Infrastructure in Open Projects?<a class="anchor" aria-label="anchor" href="#what-is-infrastructure-in-open-projects"></a>
+<section><h2 class="section-heading" id="count-the-whole-workflow">Count the whole workflow<a class="anchor" aria-label="anchor" href="#count-the-whole-workflow"></a>
 </h2>
 <hr class="half-width">
-<p>Infrastructure refers to the technical tools and services that
-support your project: - Code repositories (like GitHub or GitLab) -
-Communication platforms (like Slack or Discourse) - Data storage and
-hosting - Documentation systems - Project management tools</p>
-</section><section><h2 class="section-heading" id="factors-to-consider">Factors to Consider<a class="anchor" aria-label="anchor" href="#factors-to-consider"></a>
-</h2>
-<hr class="half-width">
-<ul>
-<li>
-<strong>Simplicity</strong>: Is it easy for your team and
-contributors to use and maintain?</li>
-<li>
-<strong>Scalability</strong>: Will it keep working as your project
-grows?</li>
-<li>
-<strong>Interoperability</strong>: Does it connect well with tools
-your community already uses?</li>
-<li>
-<strong>Support and Longevity</strong>: Is it actively maintained
-and broadly used?</li>
-<li>
-<strong>Cost</strong>: Are there long-term or hidden costs?</li>
-</ul></section><section><h2 class="section-heading" id="tool-selection-framework">Tool Selection Framework<a class="anchor" aria-label="anchor" href="#tool-selection-framework"></a>
-</h2>
-<hr class="half-width">
-<p>Use the technology facet of the ITAV framework to guide decisions: -
-Match tools to your current phase (Getting Started, Growing, or Stable)
-- Score tools on adoption, ease of use, long-term viability, and
-flexibility</p>
-<div id="challenge1" class="callout challenge">
+<p>Infrastructure includes publishing, contribution channels, storage,
+and recovery. Open <strong>Fictional service profiles</strong> and
+<strong>Infrastructure comparison</strong> in the <a href="project-worksheet.html">project worksheet</a>. All features and
+prices are invented teaching inputs. No vendor research is needed.</p>
+<p>Maintenance is only part of the work. Add review, responses,
+documentation, and one-off migration or handover. Institutional support
+is a commitment to confirm, not spare labor to assume. Funding and legal
+questions should become referrals to the appropriate local office, not
+decisions based on this workshop.</p>
+<div id="check-available-capacity" class="callout challenge">
 <div class="callout-square">
 <i class="callout-icon" data-feather="zap"></i>
 </div>
 <span class="callout-header">Challenge</span>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
+<div id="check-available-capacity" class="callout-inner">
+<h3 class="callout-title">Check available capacity</h3>
 <div class="callout-content">
-<p><strong>Exercise: Infrastructure Scenario Planning</strong><br><strong>Time: 15 minutes</strong></p>
-<p>You’re launching a platform for open educational resources. In small
-groups: - Identify three infrastructure needs (such as code hosting,
-contributions, or discussion) - Choose tools from a provided list or
-suggest your own - Explain your selections using the criteria above</p>
-<p>Report back to the full group.</p>
+<p><strong>3 minutes, individual response and feedback.</strong> Profile
+B uses the full routine maintenance allowance. Can it absorb new
+correction requests? Explain what the case does and does not
+establish.</p>
 </div>
 </div>
 </div>
-<div id="discussion1" class="callout discussion">
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<p>No spare review capacity is stated. Estimate or observe review effort
+before promising it. B might work with a reduced support commitment or
+confirmed reallocation of work. Neither “free service means free
+support” nor “B can never work” follows from the facts. Revise an
+unsupported claim to state the missing evidence.</p>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="worked-comparison">Worked comparison<a class="anchor" aria-label="anchor" href="#worked-comparison"></a>
+</h2>
+<hr class="half-width">
+<p>Reject C under current staffing: its maintenance demand exceeds
+available labor, even though its service fee fits. Low cash cost does
+not supply missing time.</p>
+<p>A leaves more room for review than B. A provisional plan could
+reserve that remaining time for corrections and documentation and defer
+new lessons. That is a planning assumption to test, not a measured
+workload. B saves money and offers institutional support; it may fit a
+narrower service if eligibility and responsibilities are confirmed.</p>
+<p>Before relying on either, have the incoming maintainer demonstrate
+publication and recovery. Test whether an export can be understood and
+used elsewhere. Record who owns each dependency and what happens if
+access or institutional eligibility ends. The optional <a href="https://github.com/UC-OSPO-Network/playbook/blob/563615951611866b1822b20a313091fa42d8077e/facet2/funding_intro.md" class="external-link">playbook
+funding introduction</a> provides academic context; it does not
+authorize campus commitments.</p>
+<div id="choose-then-repair-a-flawed-decision" class="callout challenge">
 <div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<span class="callout-header">Discussion</span>
-<div class="callout-inner">
+<span class="callout-header">Challenge</span>
+<div id="choose-then-repair-a-flawed-decision" class="callout-inner">
+<h3 class="callout-title">Choose, then repair a flawed decision</h3>
 <div class="callout-content">
-<p>Think about a project you’ve worked on. Which infrastructure choices
-stuck with the project—for better or worse? What would you change
-today?</p>
+<p><strong>14 minutes:</strong> 2 silent comparison, 6 paired choice, 4
+feedback and repair, 2 transition/checkpoint. Swap roles. Use the case,
+profiles, and your earlier outputs or their checkpoints.</p>
+<ol style="list-style-type: decimal">
+<li>Complete the A/B comparison. Select a provisional option using two
+case facts and name an advantage of the other option.</li>
+<li>Explain how educators without publishing accounts can submit
+corrections, within your support boundary.</li>
+<li>Identify recurring maintenance, review and documentation work, plus
+one-off handover work. State what is deferred or needs an institutional
+commitment. Unknown estimates must remain unknown.</li>
+<li>Name a dependency, continuity uncertainty, and check before
+commitment.</li>
+<li>Repair this flawed claim: “B costs nothing, so we can promise
+same-day replies to every correction.” Use a case fact and propose a
+defensible replacement.</li>
+</ol>
 </div>
 </div>
 </div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div class="accordion-body">
+<p>A fits the service budget and leaves a routine time margin. B saves
+the fee and offers support, but its maintenance consumes the available
+allowance. Either can pass if the proposal accounts for the whole
+workflow and unresolved commitments. Email corrections remain possible
+under both profiles.</p>
+<p>For the flawed claim, replace the same-day promise with a limited
+review offer pending workload measurement, or pause support and
+communicate that limit. Confirm B’s ongoing eligibility and support
+scope. For A, test publication, account recovery, and usable exports.
+Transition time remains unknown and must be budgeted before commitment.
+Use <strong>Infrastructure checkpoint</strong> if needed.</p>
+<p><strong>Criteria:</strong> Use case evidence, distinguish facts from
+estimates, include the other option’s advantage, and address labor,
+money, access, and continuity. Popularity and price alone are
+insufficient.</p>
+</div>
+</div>
+</div>
+</div>
+
+<p>Next, combine the choices and state what would make you reconsider
+them.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -723,11 +1046,185 @@ today?</p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul>
-<li>Infrastructure choices shape a project’s future. They’re strategic
-decisions.</li>
-<li>Tools should fit your project’s stage, team skills, and community
-needs.</li>
-<li>Revisit your setup regularly to keep it sustainable.</li>
+<li>Compare the whole workflow, not just service fees.</li>
+<li>Recurring work and one-off transition work both need capacity.</li>
+<li>Test handover and dependencies before making a commitment.</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-synthesis"><p>Content from <a href="synthesis.html">A decision record to discuss and test</a></p>
+<hr>
+<p>Last updated on 2026-11-27 |
+
+        <a href="https://github.com/jt14den/sustainable-open-projects/edit/main/episodes/synthesis.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>Do the proposed decisions fit together?</li>
+<li>What evidence would make us revise the proposal?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Produce a decision record connecting community, governance,
+technology, and resources.</li>
+<li>Distinguish citation, preservation, and ongoing support in a public
+status proposal.</li>
+<li>Revise a first action when the departure date changes.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="connect-the-decisions">Connect the decisions<a class="anchor" aria-label="anchor" href="#connect-the-decisions"></a>
+</h2>
+<hr class="half-width">
+<p>Use <strong>Decision record starter</strong> and <strong>Review
+checklist</strong> in the <a href="project-worksheet.html">project
+worksheet</a>. You may use the checkpoint copies. Each learner keeps a
+record, even if a pair discusses the same choices.</p>
+<p>A short status note must distinguish a citable release, a preserved
+artifact, and an operating service. For example: “Proposed status:
+corrections only during handover. Preserve the next numbered release
+with authors, date, reuse terms, and source files at a repository to be
+confirmed with the library. The incoming maintainer will test
+publication and recovery before accepting responsibility. A stored
+release does not promise ongoing support.” The location and commitment
+are unresolved, not completed deposits. The optional <a href="https://github.com/UC-OSPO-Network/playbook/blob/563615951611866b1822b20a313091fa42d8077e/facet1/scholarly_preservation.md" class="external-link">playbook
+preservation chapter</a> offers academic context.</p>
+<p>If nobody can maintain the service, a smaller offer or responsible
+sunset can be justified. Consult affected users, communicate an end or
+review date, preserve an identifiable release with its reuse terms, and
+say which functions will stop. A quiet repository alone does not
+establish failure.</p>
+<div id="assemble-review-revise" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="assemble-review-revise" class="callout-inner">
+<h3 class="callout-title">Assemble, review, revise</h3>
+<div class="callout-content">
+<p><strong>17 minutes:</strong> 8 individual assembly, 5 peer review, 3
+revision, 1 transition. Use the worksheet headings and all supplied
+outputs.</p>
+<ol style="list-style-type: decimal">
+<li>Connect the community need, risk and facets, rule, service choice,
+and resources. Include recurring and transition work, support limits,
+and one uncertain commitment.</li>
+<li>Add a proposed public status/citation/preservation note. Name the
+release information, intended location or referral, and who would
+operate or support it, if anyone.</li>
+<li>State a next action, responsible role, people to consult, and review
+date or event. Add an observation that would trigger
+reconsideration.</li>
+<li>Have a partner apply every checklist row using <strong>demonstrated
+/ needs revision / not yet addressed</strong>. Request one specific
+revision, then make it. Do not add a numerical total.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>A coherent proposal can retain emailed corrections, adopt the
+content-lead rule, and choose A provisionally while deferring new
+lessons. The editor’s next action is a publishing and recovery rehearsal
+with the departing maintainer before handover. Measure review and
+documentation effort; do not assume the routine margin covers migration.
+Reconsider if the incoming maintainer cannot complete the task or total
+work exceeds capacity. Add the status note above with its unresolved
+repository referral.</p>
+<p>B with narrower support, a negotiated institutional handover, or a
+planned sunset can also meet the criteria. Assess the evidence and
+effects on users, not whether the choice keeps the project growing. A
+record that promises support without staff time needs revision even if
+every heading is filled.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="individual-exit-departure-tomorrow" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="individual-exit-departure-tomorrow" class="callout-inner">
+<h3 class="callout-title">Individual exit: departure tomorrow</h3>
+<div class="callout-content">
+<p><strong>5 minutes, individual.</strong> The publishing maintainer
+must leave tomorrow rather than at the case’s planned date. Name the
+first action you would change, explain why, and identify another facet
+affected. Submit your own short response.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<p>Prioritize an access and recovery rehearsal with the incoming
+maintainer today, deferring new content. If that is not possible,
+communicate a temporary pause while preserving an identifiable release.
+This links technology capability to resources, governance authority, and
+community expectations. Other first actions pass when they respond to
+the changed deadline, cite a reason, and connect another facet. Merely
+renaming the backup does not address capability.</p>
+</div>
+</div>
+</div>
+</div>
+
+</section><section><h2 class="section-heading" id="optional-transfer-after-the-workshop">Optional transfer after the workshop<a class="anchor" aria-label="anchor" href="#optional-transfer-after-the-workshop"></a>
+</h2>
+<hr class="half-width">
+<p>Apply the questions to your own project, or keep the fictional case.
+Name a decision, whom you must consult, and one limit to transferring
+this solution. No personal disclosure is required. An optional follow-up
+task appears in the instructor notes; it is not part of the 120-minute
+schedule.</p>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<h2 class="callout-header">Key Points</h2>
+<div class="callout-inner">
+<div class="callout-content">
+<ul>
+<li>Make a proposal that stakeholders can review and test.</li>
+<li>Citation, preservation, and continued operation require different
+commitments.</li>
+<li>A justified handover, smaller scope, or responsible sunset can meet
+the task.</li>
+<li>Use a changed condition to test reasoning; completion alone does not
+prove learning.</li>
 </ul>
 </div>
 </div>
@@ -755,8 +1252,8 @@ any links that you are not going to use.
         | <a href="https://github.com/jt14den/sustainable-open-projects/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
         | <a href="https://github.com/jt14den/sustainable-open-projects/" class="external-link">Source</a></p>
         <p>
-        <a href="https://github.com/jt14den/sustainable-open-projects/blob/main/" class="external-link">Cite</a>
-        | <a href="mailto:team@carpentries.org">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
+        <a href="citation.html">Cite</a>
+        | <a href="mailto:tdennis@library.ucla.edu">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 		</div>
 		<div class="col-md-6">
 
@@ -785,9 +1282,9 @@ any links that you are not going to use.
   "creativeWorkStatus": "active",
   "url": "https://jt14den.github.io/sustainable-open-projects/aio.html",
   "identifier": "https://jt14den.github.io/sustainable-open-projects/aio.html",
-  "dateCreated": "2025-07-29",
-  "dateModified": "2026-11-24",
-  "datePublished": "2026-11-24"
+  "dateCreated": "2025-04-24",
+  "dateModified": "2026-11-27",
+  "datePublished": "2026-11-27"
 }
 
   </script><script>
